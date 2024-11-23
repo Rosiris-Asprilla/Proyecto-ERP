@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 from fpdf import FPDF
 
-logo_path = "https://www.bing.com/images/search?view=detailV2&ccid=oxzPN8Tg&id=8B81C1B956A76F55E8D499FAF219613CEB72676F&thid=OIP.oxzPN8TgGtDaOCsYjURLPQAAAA&mediaurl=https%3A%2F%2Fsmallit.co.jp%2Fwp-content%2Fuploads%2F2022%2F05%2Ferp.webp&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.a31ccf37c4e01ad0da382b188d444b3d%3Frik%3Db2dy6zxhGfL6mQ%26pid%3DImgRaw%26r%3D0&exph=362&expw=350&q=logos+de+erp&simid=608031988386257038&form=IRPRST&ck=FA9DDA43C0CBCCEDA4CAE0E86BA00ACF&selectedindex=1&itb=1&ajaxhist=0&ajaxserp=0&vt=2&sim=11&iss=VSI&cit=ccid_%2FtwDtxz%2B*cp_F3B048884040D6E88478E8689EEEE9BA*mid_4B73651FCAF9671B03F9E99F7AFC337E03BF91EC*simid_607998109711488895*thid_OIP.!_twDtxz-pGqAGmgtnVaSTwHaHa=="
+logo_path = "data://www.bing.com/images/search?view=detailV2&ccid=oxzPN8Tg&id=8B81C1B956A76F55E8D499FAF219613CEB72676F&thid=OIP.oxzPN8TgGtDaOCsYjURLPQAAAA&mediaurl=https%3A%2F%2Fsmallit.co.jp%2Fwp-content%2Fuploads%2F2022%2F05%2Ferp.webp&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.a31ccf37c4e01ad0da382b188d444b3d%3Frik%3Db2dy6zxhGfL6mQ%26pid%3DImgRaw%26r%3D0&exph=362&expw=350&q=logos+de+erp&simid=608031988386257038&form=IRPRST&ck=FA9DDA43C0CBCCEDA4CAE0E86BA00ACF&selectedindex=1&itb=1&ajaxhist=0&ajaxserp=0&vt=2&sim=11&iss=VSI&cit=ccid_%2FtwDtxz%2B*cp_F3B048884040D6E88478E8689EEEE9BA*mid_4B73651FCAF9671B03F9E99F7AFC337E03BF91EC*simid_607998109711488895*thid_OIP.!_twDtxz-pGqAGmgtnVaSTwHaHa=="
 
 # Configuración inicial
 st.set_page_config(page_title="Módulos del ERP", layout="wide",page_icon=logo_path)
@@ -21,8 +21,8 @@ st.write("Bienvenido al sistema ERP para la gestión de clientes, inventarios, f
 st.sidebar.title("ERP_ITM")
 
 # Variables de autenticación
-USER = "Lira"
-PASSWORD = "Lir@1120"
+USER = "RosiAsprilla"
+PASSWORD = "Rosi2024"
 
 # Inicialización de variables globales
 if "auth" not in st.session_state:
