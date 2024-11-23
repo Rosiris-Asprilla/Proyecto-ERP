@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 from fpdf import FPDF
 
-logo_path = "https://www.bing.com/images/search?view=detailV2&ccid=%2FtwDtxz%2B&id=4B73651FCAF9671B03F9E99F7AFC337E03BF91EC&thid=OIP._twDtxz-pGqAGmgtnVaSTwHaHa&mediaurl=https%3A%2F%2Fwww.supplychaininfo.eu%2Fwp-content%2Fuploads%2F2019%2F01%2Fqu-est-ce-qu-un-erp-fonction.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.fedc03b71cfea46a801a682d9d56924f%3Frik%3D7JG%252fA34z%252fHqf6Q%26pid%3DImgRaw%26r%3D0&exph=5000&expw=5000&q=logos+de+erp&simid=607998109711488895&form=IRPRST&ck=F3B048884040D6E88478E8689EEEE9BA&selectedindex=1&itb=1&ajaxhist=0&ajaxserp=0&pivotparams=insightsToken%3Dccid_Z0qsrJ7R*cp_D06EC22D51A85221BBA035F67A8FE585*mid_5792360C2D70A62DCAAE7790CE42F16DA423B210*simid_608028749992580684*thid_OIP.Z0qsrJ7RvsT819KXWqZc4wHaGZ&vt=0&sim=11&iss=VSI&ajaxhist=0&ajaxserp=0"  # Asegúrate de poner la ruta correcta
+logo_path = "https://www.bing.com/images/search?view=detailV2&ccid=oxzPN8Tg&id=8B81C1B956A76F55E8D499FAF219613CEB72676F&thid=OIP.oxzPN8TgGtDaOCsYjURLPQAAAA&mediaurl=https%3A%2F%2Fsmallit.co.jp%2Fwp-content%2Fuploads%2F2022%2F05%2Ferp.webp&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.a31ccf37c4e01ad0da382b188d444b3d%3Frik%3Db2dy6zxhGfL6mQ%26pid%3DImgRaw%26r%3D0&exph=362&expw=350&q=logos+de+erp&simid=608031988386257038&form=IRPRST&ck=FA9DDA43C0CBCCEDA4CAE0E86BA00ACF&selectedindex=1&itb=1&ajaxhist=0&ajaxserp=0&vt=2&sim=11&iss=VSI&cit=ccid_%2FtwDtxz%2B*cp_F3B048884040D6E88478E8689EEEE9BA*mid_4B73651FCAF9671B03F9E99F7AFC337E03BF91EC*simid_607998109711488895*thid_OIP.!_twDtxz-pGqAGmgtnVaSTwHaHa"
 
 # Configuración inicial
 st.set_page_config(page_title="Módulos del ERP", layout="wide",page_icon=logo_path)
